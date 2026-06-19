@@ -15,7 +15,7 @@ public class PalindromeTest {
 
         String myNumString = String.valueOf(myNum); //convert the integer to String
 
-        int numLength = String.valueOf(myNum).length();
+        int numLength = myNumString.length();
 
         int i = 0;
         String revNum = "";
