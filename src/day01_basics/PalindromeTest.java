@@ -11,27 +11,28 @@ public class PalindromeTest {
 
         System.out.print("Enter the number to be checked for Palindrome: ");
 
-        int myNum = sc.nextInt();
-        int originalNum = myNum;
-        int k = 0;
+        int myNum = sc.nextInt(); //capture user input and store as an integer
 
-        while (myNum>0) {
+        String myNumString = String.valueOf(myNum); //convert the integer to String
 
-            myNum = myNum/10;
-            k++;
+        int numLength = String.valueOf(myNum).length();
+
+        int i = 0;
+        String revNum = "";
+
+        System.out.println("Number of digits = " + numLength);
+
+        while (i < numLength) {
+            revNum = revNum + myNumString.charAt(numLength - i - 1);
+            i++;
         }
 
-        System.out.println("Your number has " + k + " digits");
+        System.out.println("Reverse Number is " + revNum);
 
-        int[] reverseNum = new int[k];
-
-        for (int i=0; i<k; i++) {
-            reverseNum[i] = originalNum % 10;
-            originalNum = originalNum/10;
+        if (myNumString.equals(revNum)) {
+            System.out.println("Yeah! We have a Palindrome");
+        } else {
+            System.out.println("Nope! Not a Palindrome");
         }
-
-        System.out.println("Your reverse number is " + reverseNum[k-3] + reverseNum[k-2] + reverseNum[k-1]);
-        System.out.println(reverseNum);
-
     }
 }
