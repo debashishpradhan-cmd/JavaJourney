@@ -2,7 +2,7 @@ package day01_basics;
 
 import java.util.Scanner;
 
-public class GreatestInteger01 { //This will find greatest integer from 3 user provided numbers.
+public class GreatestIntegerLive { //This will find greatest integer from 3 user provided numbers.
 
     public static void main(String[] args) {
 

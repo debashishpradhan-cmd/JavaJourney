@@ -1,4 +1,4 @@
-package deb01_basics;
+package day02_basics;
 
 public class WhileLoopTest {
     public static void main(String[] args) {
