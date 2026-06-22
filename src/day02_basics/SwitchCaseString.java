@@ -9,12 +9,12 @@ public class SwitchCaseString {
         System.out.print("Enter your choice of Browser: ");
         Scanner sc = new Scanner(System.in);
 
-        while (!sc.hasNext("[a-zA-Z]+")){
-            System.out.print("Please select Browser: chrome, firefox");
+        while (!sc.hasNext("[a-zA-Z]+")){ //checking for non-string inputs and giving warning
+            System.out.println("No non-integral values! Please select from: chrome, firefox");
             sc.next();
         }
 
-        String myBrowser = sc.next();
+        String myBrowser = sc.next().toLowerCase(); //reads user input and converts to lower case.
 
         switch (myBrowser) {
             case "chrome":
