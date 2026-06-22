@@ -2,7 +2,7 @@ package day02_basics;
 
 import java.util.Scanner;
 
-public class SwitchCaseAddLoop {//This program will add two integers provided by the user.
+public class SwitchCaseAddLoop {//This program will add multiple integers provided by the user.
 
     public static void main(String[] args) {
 
