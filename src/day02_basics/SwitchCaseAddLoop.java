@@ -17,8 +17,7 @@ public class SwitchCaseAddLoop {//This program will add multiple integers provid
             int userInput = sc2.nextInt();
             numAnswer = numAnswer + userInput;
             numIntegers--;
-
-            System.out.println("Final result = " + numAnswer);
         }
+        System.out.println("Final result = " + numAnswer);
     }
 }
