@@ -1,21 +1,19 @@
-package day01_basics;
+package day02_basics;
 
 import java.util.Scanner;
 
 public class IntegerLengthString {
     public static void main(String[] args) { // This class stores the number of digits as a String
 
-        // Create scanner object
-
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); // Create scanner object
 
         System.out.print("Enter the number to be checked for digits: ");
 
         int myNum = sc.nextInt(); //save keyboard input into an integer myNum
 
-        int DigitCount = String.valueOf(myNum).length(); //get length of keyboard input i.e. length of myNum
+        int DigitCount = String.valueOf(myNum).length(); //convert myNum to string and fetch its length.
 
-        System.out.println("Your number has " +DigitCount + " digits");
+        System.out.println("Your number has " + DigitCount + " digits");
 
     }
 }

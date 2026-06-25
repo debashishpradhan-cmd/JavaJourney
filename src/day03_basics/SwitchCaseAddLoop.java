@@ -1,4 +1,4 @@
-package day02_basics;
+package day03_basics;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class SwitchCaseAddLoop {//This program will add multiple integers provid
 
     public static void main(String[] args) {
 
-        System.out.print("Enter the number of integers you want to add: ");
+        System.out.print("How many number do you want to add: ");
         Scanner sc1 = new Scanner(System.in);
         int numIntegers = sc1.nextInt();
         int numAnswer = 0;
