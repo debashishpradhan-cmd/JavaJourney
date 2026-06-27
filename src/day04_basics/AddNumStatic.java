@@ -1,6 +1,6 @@
 package day04_basics;
 
-public class AddNum {//this class file adds two static numbers fed from the main method.
+public class AddNumStatic {//this class file adds two static numbers fed from the main method.
 
     public static int addition(int a, int b) {//define the 'addition' method
 
