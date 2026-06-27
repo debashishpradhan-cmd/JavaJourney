@@ -2,7 +2,7 @@ package day04_basics;
 
 import java.util.Scanner;
 
-public class MinMax {
+public class LargestNum {
     public static void main(String[] args) {
 
         System.out.print("How many numbers do you want to compare: ");
