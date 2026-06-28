@@ -2,7 +2,7 @@ package day03_basics;
 
 import java.util.Scanner;
 
-public class SwitchCaseAdd {//This program will add two integers provided by the user.
+public class AddNum {//This program will add two integers provided by the user.
 
     public static void main(String[] args) {
 
@@ -12,7 +12,7 @@ public class SwitchCaseAdd {//This program will add two integers provided by the
 
         System.out.print("Enter the second number: ");
         Scanner sc2 = new Scanner(System.in);
-        int num2 = sc2.nextInt();
+        int num2 = sc1.nextInt();
 
         System.out.println("The answer is: " + (num1 + num2));
     }

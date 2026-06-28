@@ -2,7 +2,7 @@ package day04_basics;
 
 import java.util.Scanner;
 
-public class LargestNum {
+public class LargestNum {//find largest integer from multiple user-fed numbers
     public static void main(String[] args) {
 
         System.out.print("How many numbers do you want to compare: ");
@@ -11,6 +11,8 @@ public class LargestNum {
         int[] myNumber = new int[countNum]; // array of integers provided by user
 
         int i = 0;
+
+        //ask user to provide numbers one after the other
         while (i < countNum) {
             System.out.print("Enter the number: ");
             myNumber[i] = sc.nextInt();

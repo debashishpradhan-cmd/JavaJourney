@@ -2,13 +2,13 @@ package day03_basics;
 
 import java.util.Scanner;
 
-public class SwitchCaseAddLoop {//This program will add multiple integers provided by the user.
+public class AddMultiNum {//This program will add multiple integers provided by the user.
 
     public static void main(String[] args) {
 
-        System.out.print("How many number do you want to add: ");
+        System.out.print("How many numbers do you want to add: ");
         Scanner sc1 = new Scanner(System.in);
-        int numIntegers = sc1.nextInt();
+        int numIntegers = sc1.nextInt();//stores number of integers to be entered by user
         int numAnswer = 0;
 
         while (numIntegers > 0) {
