@@ -11,7 +11,6 @@ public class AddNum {//This program will add two integers provided by the user.
         int num1 = sc1.nextInt();
 
         System.out.print("Enter the second number: ");
-        Scanner sc2 = new Scanner(System.in);
         int num2 = sc1.nextInt();
 
         System.out.println("The answer is: " + (num1 + num2));
