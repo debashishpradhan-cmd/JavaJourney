@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class AddNumUser {//Add 2 numbers provided dynamically by user
 
-    public static int addition(int a, int b){
+    public static int addition(int a, int b) {
+
         return a + b;
     }
 
