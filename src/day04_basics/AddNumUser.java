@@ -18,7 +18,7 @@ public class AddNumUser {//Add 2 numbers provided dynamically by user
         System.out.print("Enter second number b: ");
         int b = sc1.nextInt();
 
-        int result = addition(a, b);
+        //int result = addition(a, b);
 
         System.out.println("Result is " + (a+b));
     }
