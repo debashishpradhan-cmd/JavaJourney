@@ -20,6 +20,6 @@ public class AddNumUser {//Add 2 numbers provided dynamically by user
 
         int result = addition(a, b);
 
-        System.out.println("Result is " + result);
+        System.out.println("Result is " + (a+b));
     }
 }
