@@ -2,7 +2,7 @@ package day03_basics;
 
 import java.util.Scanner;
 
-public class SwitchCaseTest {
+public class SwitchCaseTest {//Prints day of the week based on user entered number
 
     public static void main(String[] args) {
 

@@ -2,7 +2,8 @@ package day03_basics;
 
 import java.util.Scanner;
 
-public class SwitchCaseOperator {
+public class SwitchCaseOperator {//Uses Switch-Case syntax to provide output based on user's
+    // choice of integers and operators.
 
     public static void main(String[] args) {
 
