@@ -14,7 +14,7 @@ public class LargestNum {//find largest integer from multiple user-fed numbers
 
         //ask user to provide numbers one after the other
         while (i < countNum) {
-            System.out.print("Enter the number: ");
+            System.out.print("Enter number " + (i+1) + ": ");
             myNumber[i] = sc.nextInt();
             i++;
         }
