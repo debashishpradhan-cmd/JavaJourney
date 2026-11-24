@@ -8,7 +8,7 @@ public class CompareNum {//find larger of 2 nos. Here we are calling compare met
 
         if (a > b) {
             return a;
-        } else return b;
+        } else return b; //this ensures no separate handling required if both numbers are equal.
     }
 
     public static void main(String[] args) {
