@@ -6,7 +6,7 @@ public class SquareCalc {
 
     public static int calculateSquare(int number) {//this method returns the square of a number
 
-        return number * number;
+        return number*number;
 
     }
 
