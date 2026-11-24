@@ -7,9 +7,9 @@ public class IntegerLengthString {
 
         Scanner sc = new Scanner(System.in); // Create scanner object
 
-        System.out.print("Enter the number to be checked for digits: ");
+        System.out.print("Enter the number to be checked for digit count: ");
 
-        int myNum = sc.nextInt(); //save keyboard input into an integer myNum
+        long myNum = sc.nextLong(); //using long instead of int to handle more than 10 digits.
 
         int DigitCount = String.valueOf(myNum).length(); //convert myNum to string and fetch its length.
 
