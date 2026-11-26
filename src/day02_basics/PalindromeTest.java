@@ -27,7 +27,7 @@ public class PalindromeTest {
             i++;
         }
 
-        System.out.println("Reverse Number is " + revNum);
+        System.out.println("Reverse of the Number is " + revNum);
 
         if (myNumString.equals(revNum)) {
             System.out.println("Yeah! We have a Palindrome");

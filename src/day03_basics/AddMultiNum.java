@@ -8,7 +8,7 @@ public class AddMultiNum {//This program will add multiple integers provided by 
 
         System.out.print("How many numbers do you want to add: ");
         Scanner sc1 = new Scanner(System.in);
-        int numIntegers = sc1.nextInt();//stores number of integers to be entered by user
+        int numIntegers = sc1.nextInt();//stores number of integers to be added
         int numAnswer = 0;
 
         while (numIntegers > 0) {
