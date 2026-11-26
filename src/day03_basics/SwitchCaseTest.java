@@ -8,7 +8,7 @@ public class SwitchCaseTest {//Prints day of the week based on user entered numb
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the day of the week: ");
+        System.out.print("Enter the day's number (between 1-7): ");
 
         while (!sc.hasNextInt()) { // checks if entered input is an integer or not.
             System.out.print("Invalid input. Please re-enter number:"); // if non-integer, re-enter number.
