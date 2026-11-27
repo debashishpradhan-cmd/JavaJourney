@@ -12,4 +12,4 @@ public class ArrayToNumberInt {
     }
 }
 //Here we are storing the final output 47612 as an integer (myNum) and not as a String.
-//Hence it can be used later mathematically (as it is an integer and not a String).
+//So, it can be used later mathematically (as it is an integer and not a String).
