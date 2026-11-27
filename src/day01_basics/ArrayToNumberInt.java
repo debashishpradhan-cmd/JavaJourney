@@ -1,7 +1,7 @@
 package day01_basics;
 
 public class ArrayToNumberInt {
-    public static void main(String[] args) {
+    public static void main(String[] args) {//converts array into integer
         int[] myArray = {4, 7, 6, 1, 2};
         int myNum = 0;
 
